@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Crown Skates Website for college final site">
+<meta name="keyword" content="Crown, Skates, Skateboarding, College">
+<meta name="author" content="Maren Korner">
+<link type="text/css" rel="stylesheet" href="css/reset.css" />
+<link type="text/css" rel="stylesheet" href="css/master.css" />
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<title>Crown Skates</title>
+</head>
+<body>  
+   <nav>
+      <img id="logo" src="images/logomaren.png" alt="CROWN SKATES LOGO">   
+      <div class="utilities">
+        <div class="mobile-menu-button container" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+      </div>
+          <ul class="burgermenu">
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="about.html">ABOUT</a></li>    
+              <li><a href="merch.html">MERCH</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+      </ul> 
+   </nav>     
+    <div class="maincontent">
+        <div id="fname" class="contact">
+            <p>Give us a shout! 
+            <br>
+               Do you need specs, more info, quotes, or just want to send us a song?
+            <br>
+               Drop it here
+            </p>
+            <form action="action_page.php">
+                  <label>First Name</label>
+            <br>
+            <input type="text"  name="firstname" placeholder="Your name..">
+            <br>
+                  <label for="lname">Last Name</label>
+            <br>
+           <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <br>
+                  <label for="hearabout">Where did you hear about us</label>
+            <br>
+                <select id="hearabout" name="hearabout">
+                    <option value="...">...</option>
+                    <option value="Facebook">Facebook</option>
+                    <option value="Instagram">Instagram</option>
+                    <option value="Youtube">YouTube</option>
+                    <option value="Friend">Friend</option>
+                </select>
+            <br> 
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            <br>
+          <input class="button" type="submit" value="Submit">
+            </form>
+            <div id="hours">
+            <p> Opening Hours:
+            <br>
+            Mon: 9am - 6pm
+            <br>
+            Tue: 9am - 6pm
+            <br>
+            Wed: 9am - 6pm
+            <br>
+            Thurs: 9am - 6pm
+            <br>
+            Fri: 9am - 6pm
+            <br>
+            Sat-Sun: 9am - 6pm
+            </p>   
+  <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2381.895071178975!2d-6.265100884711748!3d53.3451344825039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e9cccbdfa5b%3A0x1b175c1782de723f!2sSkate+City!5e0!3m2!1sen!2sie!4v1526207662249"></iframe>
+  </div>
+            </div>
+        </div>  
+          <footer>
+              <ul class="containera">     
+                  <li><a href="index.html">HOME</a></li>
+                  <li><a href="about.html">ABOUT</a></li>
+                  <li><a href="customise.html">CUSTOMISE</a></li>
+                  <li><a href="merch.html">MERCH</a></li>
+                  <li><a href="contact.html">CONTACT</a></li>
+              </ul>      
+              <div class="social">      
+                  <a href="#"><img src="images/instagram.png" alt="instagram logo"></a>
+                  <a href="#"><img src="images/facebook-logo-in-circular-button-outlined-social-symbol.png" alt="facebook logo"></a>
+                  <a href="#"><img src="images/youtube.png" alt="youtube logo"></a>
+              </div>
+        </footer>       
+    </div>	   
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/jquery.js"></script>   
+</body>
+</html>
